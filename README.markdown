@@ -7,6 +7,13 @@ Adds the ability to hide the intrusive "Upcoming Events" sidebar on [New Trier H
 ## Chrome
 Choose Window > Extensions. Drag `ntns.crx` into the page that appears.
 
-## Firefox
+# Demo
+![demo](screenshots/demo.gif)
 
-## Safari
+# Screenshots
+
+![hidden desktop](screenshots/shot1.png)
+![shown desktop](screenshots/shot2.png)
+
+![hidden responsive](screenshots/shot3.png)
+![shown responsive](screenshots/shot4.png)
