@@ -1,6 +1,6 @@
 ntns (New Trier No Sidebar)
 ===========================
-Adds the ability to hide the intrusive "Upcoming Events" sidebar on [New Trier's new website](http://www.newtrier.k12.il.us/).
+Adds the ability to hide the intrusive "Upcoming Events" sidebar on [New Trier High School's new website](http://www.newtrier.k12.il.us/).
 
 # Installation
 
