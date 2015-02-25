@@ -1,0 +1,22 @@
+{
+  "name": "ntns",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "This extension attempts to make New Trier's new website more manageable.",
+  "icons": {
+    "16": "icon-16.png"
+  },
+  "browser_action": {
+    "default_icon": "icon-16.png"
+  },
+  "content_scripts": [
+   {
+    "matches": ["http://www.newtrier.k12.il.us/*"],
+       "js": ["jquery-2.1.3.min.js", "ntns.js"],
+    "run_at": "document_end"
+   }
+],
+  "permissions": [
+      "http://www.newtrier.k12.il.us/*"
+  ]
+}
