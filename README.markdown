@@ -14,6 +14,3 @@ Choose Window > Extensions. Drag `ntns.crx` into the page that appears.
 
 ![hidden desktop](screenshots/shot1.png)
 ![shown desktop](screenshots/shot2.png)
-
-![hidden responsive](screenshots/shot3.png)
-![shown responsive](screenshots/shot4.png)

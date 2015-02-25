@@ -19,10 +19,12 @@ function toggle_sidebar(){
     if (!hidden){
         $('#right-menu').css("display", "none");
         $('.primary-content').css({"float" : "none", "width": "auto"});
+        $('.primary-content .section').attr('style', 'padding-right: 0 !important');            
         hidden = true;
     } else{
         $('#right-menu').css("display", "block");
-        // This is a bug, as toggling the sidebar will not function correctly during "responsiveness".
+        $('.primary-content .section').attr('style', 'padding-right: 300px !important');
+        // There is a bug, as toggling the sidebar will not function correctly during "responsiveness".
         hidden = false;
     }
 }
